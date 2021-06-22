@@ -4,6 +4,13 @@
 #define NUM_RECT 30
 #define INDEX_ARRAY(ARR, X, Y, RECT) ARR[(X) + (RECT * (Y))]
 
+/* TODO 
+ * Dynamically allocate array
+ * Accept array size from user
+ * Window Resizing (?)
+ * Wrap around screen
+ */
+
 int rect_map[NUM_RECT * NUM_RECT] =  {\
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
     0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
